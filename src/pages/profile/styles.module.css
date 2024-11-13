@@ -1,0 +1,196 @@
+.profilePage {
+  position: relative;
+  padding: 20px;
+  background: var(--background-light);
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: url("../../assests/images/loginBg.png") no-repeat center center;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 120px;
+}
+
+.profileCard {
+  background: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  padding: 15px;
+  margin: 15px;
+  flex: 0 1 300px;
+  max-width: 300px;
+}
+
+.formCard {
+  background: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  padding: 15px;
+  margin: 15px;
+  flex: 1;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarWrapper {
+  position: relative;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-color);
+}
+
+.cameraIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: var(--background-color);
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+}
+
+.cameraIcon i {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.fileInput {
+  display: none;
+}
+
+.userInfo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.title {
+  font-size: 14px;
+  color: var(--text-dark);
+}
+
+.detail {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.viewProfileButton {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #7d40ff;
+  color: var(--text-white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.viewProfileButton:hover {
+  background-color: #5a30cc;
+}
+
+.formCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.formTitle {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.tab {
+  flex-grow: 1;
+  padding: 10px 0;
+  text-align: center;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.formGroupGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  color: var(--text-dark);
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 100%;
+
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.editButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; /* Add space between the buttons */
+  margin-top: auto;
+}
+
+.editButton {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  background-color: var(--primary-hover);
+}
+
+.closeButton {
+  padding: 10px 20px;
+  background-color: var(--error-color);
+  color: var(--text-white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: var(--error-dark);
+}

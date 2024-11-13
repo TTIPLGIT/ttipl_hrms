@@ -1,0 +1,84 @@
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0 0 15px var(--shadow-color);
+  width: 500px;
+  height: 350px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.gif {
+  width: 200px;
+  height: 150px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.text h2 {
+  margin: 0;
+  font-size: 24px;
+  color: rgb(46, 35, 35);
+}
+
+.text p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.alertButton1 {
+  background-color: var(--success-color);
+  color: var(--text-white);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.alertButton2 {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.alertButton3 {
+  background-color: transparent;
+
+  color: var(--error-color);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.alertButton:hover {
+  background-color: var(--primary-hover);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text-color);
+}

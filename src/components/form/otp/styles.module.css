@@ -1,0 +1,8 @@
+div[data-pc-name="inputotp"] input {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.label {
+  color: var(--text-color);
+}

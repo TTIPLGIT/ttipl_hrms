@@ -1,0 +1,36 @@
+.pSteps ol li a {
+  background: transparent !important;
+}
+
+.wrapperClass {
+  box-shadow: var(--shadow-color) 0px 7px 29px 0px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.heading {
+  border-bottom: 2px solid var(--border-color);
+  border-radius: 10px 10px 0 0;
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.bodyClassName {
+  padding-top: 20px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}

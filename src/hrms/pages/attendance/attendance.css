@@ -1,0 +1,14 @@
+/* Style for even rows */
+.even-row {
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Style for odd rows */
+.odd-row {
+  background-color: #ffffff; /* White background */
+}
+
+/* .calendar-container {
+  height: 300px; 
+  overflow: hidden; 
+} */

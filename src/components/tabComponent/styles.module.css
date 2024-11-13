@@ -1,0 +1,9 @@
+.tabView [role="tablist"] {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.tabView [data-pc-section="panelcontainer"] {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

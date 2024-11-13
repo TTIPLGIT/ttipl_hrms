@@ -1,0 +1,12 @@
+.pagination {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+.paginator {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+.paginator button {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}

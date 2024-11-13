@@ -1,0 +1,26 @@
+.modal [data-pc-section="header"] {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.modal [data-pc-section="headericons"] button:hover {
+  background-color: var(--background-hover);
+  color: var(--text-hover);
+}
+
+.modal [data-pc-section="content"] {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.modal [data-pc-section="footer"] {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.button {
+  background-color: var(--error-color);
+  color: var(--text-white);
+}
+.button:hover {
+  background-color: var(--error-color);
+  color: var(--text-white);
+}

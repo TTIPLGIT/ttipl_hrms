@@ -1,0 +1,96 @@
+/* Main Container */
+.landing-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Illustration Section */
+.illustration-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Illustration Image */
+.illustration-img {
+  width: 80%;
+}
+
+/* Modules Section */
+.modules-section {
+  width: 100%;
+  max-height: 80vh; /* Fixed height for scrollable content */
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.modules-section::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for a cleaner look */
+}
+
+/* Modules Grid */
+.modules-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+  gap: 60px;
+  width: 100%;
+  justify-content: space-around; /* Justify items with space around */
+}
+
+/* Each module item */
+.module-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px; /* Optional max width to avoid items stretching too far */
+
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* Icon for each module */
+.module-icon {
+  width: 50%;
+  object-fit: contain;
+}
+
+/* Title for each module */
+.module-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  height: 8%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 640px) {
+  /* For small screens */
+  .landing-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .illustration-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .modules-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+    gap: 10px;
+  }
+
+  .module-item {
+    width: 90%; /* Adjust width for small screens */
+    padding: 15px;
+  }
+}

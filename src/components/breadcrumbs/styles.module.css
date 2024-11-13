@@ -1,0 +1,20 @@
+.breadCrumb {
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 2px;
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: medium;
+}
+.breadCrumb:hover {
+  color: transparent;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.parent {
+  background-color: transparent;
+  border: none;
+  padding: 20px;
+  margin-bottom: 1%;
+}

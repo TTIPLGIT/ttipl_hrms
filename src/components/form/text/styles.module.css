@@ -1,0 +1,6 @@
+.textInput {
+  width: 100%;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 2px solid #cacbd0;
+}

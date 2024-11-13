@@ -1,0 +1,73 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #121212; /* Soft Purple */
+  --primary-light: #1e1e1e; /* Light Lavender */
+  --primary-dark: #000000; /* Deep Purple */
+  --primary-hover: #242424; /* Medium Purple */
+  --primary-active: #333333; /* Rich Violet */
+  --primary-disabled: #191919; /* Muted Gray */
+
+  /* Secondary Colors */
+  --secondary-color: #cf6679; /* Muted Red */
+  --secondary-light: #f48fb1; /* Light Pink */
+  --secondary-dark: #b00020; /* Deep Red */
+  --secondary-hover: #ff5370; /* Vibrant Pink */
+  --secondary-active: #d32f2f; /* Rich Red */
+  --secondary-disabled: #8e8e8e; /* Soft Gray */
+
+  /* Accent Colors */
+  --accent-color: #03dac6; /* Aquamarine */
+  --accent-light: #80deea; /* Light Cyan */
+  --accent-dark: #018786; /* Teal */
+  --accent-hover: #29b6f6; /* Sky Blue */
+  --accent-active: #00acc1; /* Deep Cyan */
+  --accent-disabled: #4caf50; /* Muted Green */
+
+  /* Background Colors */
+  --background-color: #121212; /* Dark Background */
+  --background-light: #1e1e1e; /* Slightly Lighter Dark */
+  --background-dark: #000000; /* Black */
+  --background-alt: #242424; /* Alternative Dark */
+  --background-hover: #2c2c2c; /* Hover Dark */
+  --background-active: #333333; /* Active Dark */
+  --background-disabled: #191919; /* Disabled Dark */
+
+  /* Text Colors */
+  --text-color: #e0e0e0; /* Light Gray */
+  --text-light: #cccccc; /* Lighter Gray */
+  --text-dark: #ffffff; /* White */
+  --text-alt: #b0b0b0; /* Alternative Gray */
+  --text-hover: #f5f5f5; /* Lighter White */
+  --text-active: #dcdcdc; /* Active Light Gray */
+  --text-disabled: #666666; /* Dark Gray */
+  --text-white: #ffffff;
+
+  /* Border Colors */
+  --border-color: #444444; /* Dark Gray */
+  --border-light: #555555; /* Lighter Dark Gray */
+  --border-dark: #333333; /* Very Dark Gray */
+  --border-hover: #666666; /* Hover Gray */
+  --border-active: #777777; /* Active Gray */
+  --border-disabled: #2c2c2c; /* Disabled Dark Gray */
+
+  /* Shadow Colors */
+  --shadow-color: rgba(0, 0, 0, 0.5); /* Dark Shadow */
+  --shadow-hover: rgba(0, 0, 0, 0.7); /* Darker Shadow */
+  --shadow-active: rgba(0, 0, 0, 0.9); /* Darkest Shadow */
+
+  /* States */
+  --success-color: #4caf50; /* Green for Success */
+  --warning-color: #ffc107; /* Yellow for Warning */
+  --error-color: #f44336; /* Red for Error */
+  --info-color: #2196f3; /* Blue for Info */
+
+  --success-light: #81c784; /* Light Green for Success */
+  --warning-light: #ffeb3b; /* Light Yellow for Warning */
+  --error-light: #e57373; /* Light Red for Error */
+  --info-light: #64b5f6; /* Light Blue for Info */
+
+  --success-dark: #388e3c; /* Dark Green for Success */
+  --warning-dark: #fbc02d; /* Dark Yellow for Warning */
+  --error-dark: #d32f2f; /* Dark Red for Error */
+  --info-dark: #1976d2; /* Dark Blue for Info */
+}

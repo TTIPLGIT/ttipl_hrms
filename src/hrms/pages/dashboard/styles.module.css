@@ -1,0 +1,48 @@
+.chart {
+  background-color: var(--background-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px var(--shadow-color);
+  align-self: start;
+  padding-bottom: 20px;
+}
+.chart:hover {
+  box-shadow: 0px 0px 10px var(--shadow-color);
+}
+
+.chartName {
+  align-self: start;
+  padding-left: 10px;
+  font-weight: bold;
+  color: var(--text-color) !important ;
+}
+
+.chartWrapper {
+  height: 83vh;
+  overflow: auto;
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+
+.chartWrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chartWrapper::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+}
+
+.chartWrapper::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+
+.name {
+  color: var(--text-color) !important ;
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 20px !important;
+}

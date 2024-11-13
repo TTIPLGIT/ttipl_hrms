@@ -1,0 +1,134 @@
+/* Base Styles for Larger Screens */
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for centering */
+  width: 100%;
+  background-image: url("../../assests/images/login_bg.jpg"); /* Add your image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+}
+
+.loginContainer {
+  display: flex;
+  width: 60%; /* Adjust as necessary */
+  background-color: white; /* White background for both parts */
+  border-radius: 16px; /* Rounded corners */
+  overflow: hidden; /* Prevent overflow of children */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formCard {
+  width: 50%; /* Form takes 50% */
+  padding: 0px 20px 20px 20px;
+}
+
+.imageContainer {
+  width: 50%; /* Image takes 50% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Ensure there is some gap between elements */
+}
+
+.inputContainer {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signInButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.signInButton:hover {
+  background-color: #0056b3;
+}
+
+.signUpText {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+h2 {
+  color: black;
+}
+
+a {
+  color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .loginContainer {
+    width: 90%; /* Reduce the width on smaller screens */
+    flex-direction: column; /* Stack the form and image vertically */
+  }
+
+  .formCard {
+    width: 100%; /* Full width on small screens */
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .imageContainer {
+    display: none; /* Hide image container on smaller screens */
+  }
+
+  h2 {
+    font-size: 2rem; /* Reduce font size */
+  }
+
+  .signInButton {
+    padding: 12px; /* Slightly larger button on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem; /* Further reduce font size for extra small screens */
+  }
+
+  .inputField {
+    padding: 8px; /* Slightly reduce input padding */
+  }
+
+  .signInButton {
+    padding: 10px; /* Reduce padding for smaller buttons */
+  }
+
+  .error {
+    font-size: 10px; /* Smaller error text */
+  }
+}

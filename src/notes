@@ -1,0 +1,13 @@
+<!-- <div style={{ display: "flex" }}>
+          <Button
+            style={{ backgroundColor: "black" }}
+            name={"dark"}
+            onClick={() => dispatch(setTheme("dark"))}
+          />
+          <Button
+            name={"light"}
+            style={{ backgroundColor: "white", color: "black" }}
+            onClick={() => dispatch(setTheme("light"))}
+          />
+        </div> -->
+// theme toggler

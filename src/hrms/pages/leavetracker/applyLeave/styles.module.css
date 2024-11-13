@@ -1,0 +1,7 @@
+/* styles.module.css */
+.form {
+  background-color: black;
+  max-height: 600px; /* Set a maximum height */
+  overflow-y: scroll; /* Allow vertical scrolling */
+  padding: 20px;
+}

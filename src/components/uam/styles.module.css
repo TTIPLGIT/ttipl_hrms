@@ -1,0 +1,45 @@
+.collapseBtn {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid var(--border-color);
+  padding: 10px;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.plusMinus {
+  font-weight: 800;
+  font-size: large;
+  cursor: pointer;
+}
+
+.input {
+  width: 20px;
+  height: 20px;
+}
+
+.addMenuWrapper {
+  background-color: var(--background-color);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.addMenuWrapper p {
+  font-weight: 800;
+}
+
+.menuWrapper {
+  padding: 0 10px 10px;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+
+.menuWrapper p {
+  padding: 20px 10px;
+
+  border-bottom: 2px solid var(--border-color);
+  font-weight: 800;
+}

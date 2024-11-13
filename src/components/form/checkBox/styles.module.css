@@ -1,0 +1,13 @@
+.checkBoxLabel {
+  margin-left: 2%;
+  color: var(--text-color);
+}
+
+.checkBoxWrapper {
+  margin-bottom: 0.5%;
+  margin-top: 1%;
+}
+
+/* .label {
+  color: var(--text-color);
+} */

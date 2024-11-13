@@ -1,0 +1,21 @@
+.search::placeholder {
+  color: var(--text-white);
+}
+.searchWrapper {
+  position: relative;
+}
+
+.icon {
+  padding-left: 10px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.search:focus {
+  outline: none;
+}
+.search {
+  color: var(--text-white);
+  font-weight: 600;
+}

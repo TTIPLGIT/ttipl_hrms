@@ -1,0 +1,30 @@
+/* IconButton.css */
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  gap: 5px;
+  /* margin: 0 10px 0 10px; */
+}
+
+.iconButton:hover {
+  background-color: var(--primary-hover);
+  color: var(--text-white);
+}
+
+/* .iconButtonLogo {
+  width: 20px;
+  height: 20px;
+} */
+
+.iconButtonName {
+  font-size: 16px;
+  font-weight: 500;
+}

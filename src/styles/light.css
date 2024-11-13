@@ -1,0 +1,73 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #1e90ff; /* Dodger Blue */
+  --primary-light: #1d2e61; /* Light Sky Blue */
+  --primary-dark: #3676e0; /* Dark Slate Blue */
+  --primary-hover: #0c4680; /* Medium Dodger Blue */
+  --primary-active: #1874cd; /* Active Dodger Blue */
+  --primary-disabled: #b0e0e6; /* Pale Turquoise */
+
+  /* Secondary Colors */
+  --secondary-color: #ffa07a; /* Light Salmon */
+  --secondary-light: #ffdab9; /* Peach Puff */
+  --secondary-dark: #cd7054; /* Dark Salmon */
+  --secondary-hover: #ff8c69; /* Salmon */
+  --secondary-active: #ff6347; /* Active Tomato */
+  --secondary-disabled: #ffc8a2; /* Light Coral */
+
+  /* Accent Colors */
+  --accent-color: #32cd32; /* Lime Green */
+  --accent-light: #9cff9c; /* Light Green */
+  --accent-dark: #228b22; /* Forest Green */
+  --accent-hover: #2eb82e; /* Medium Lime Green */
+  --accent-active: #249c24; /* Active Lime Green */
+  --accent-disabled: #adffad; /* Pale Green */
+
+  /* Background Colors */
+  --background-color: #fcfcfc; /* Alice Blue */
+  --background-light: #fafafa; /* White Smoke */
+  --background-dark: #e6e6fa; /* Lavender */
+  --background-alt: #e0ffff; /* Light Cyan */
+  --background-hover: #e8f4ff; /* Light Sky Blue */
+  --background-active: #d1eeff; /* Lighter Sky Blue */
+  --background-disabled: #f8f8ff; /* Ghost White */
+
+  /* Text Colors */
+  --text-color: #333333; /* Dark Charcoal */
+  --text-light: #666666; /* Dim Gray */
+  --text-dark: #0c0c20; /* Black */
+  --text-alt: #2f4f4f; /* Dark Slate Gray */
+  --text-hover: #1c1c1c; /* Almost Black */
+  --text-active: #1a1a1a; /* Active Charcoal */
+  --text-disabled: #b0b0b0; /* Light Gray */
+  --text-white: #ffffff;
+
+  /* Border Colors */
+  --border-color: #d3d3d3; /* Light Gray */
+  --border-light: #e0e0e0; /* Very Light Gray */
+  --border-dark: #a9a9a9; /* Dark Gray */
+  --border-hover: #c0c0c0; /* Silver */
+  --border-active: #808080; /* Gray */
+  --border-disabled: #f5f5f5; /* White Smoke */
+
+  /* Shadow Colors */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Light Shadow */
+  --shadow-hover: rgba(0, 0, 0, 0.2); /* Medium Shadow */
+  --shadow-active: rgba(0, 0, 0, 0.3); /* Dark Shadow */
+
+  /* States */
+  --success-color: #28a745; /* Green for Success */
+  --warning-color: #ffc107; /* Yellow for Warning */
+  --error-color: #dc3545; /* Red for Error */
+  --info-color: #17a2b8; /* Teal for Info */
+
+  --success-light: #d4edda; /* Light Green for Success */
+  --warning-light: #fff3cd; /* Light Yellow for Warning */
+  --error-light: #f8d7da; /* Light Red for Error */
+  --info-light: #d1ecf1; /* Light Teal for Info */
+
+  --success-dark: #155724; /* Dark Green for Success */
+  --warning-dark: #856404; /* Dark Yellow for Warning */
+  --error-dark: #721c24; /* Dark Red for Error */
+  --info-dark: #0c5460; /* Dark Teal for Info */
+}

@@ -1,0 +1,69 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  padding: 1rem;
+}
+
+.registrationContainer {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* .formCard {
+    padding: 2rem;
+  } */
+
+.inputContainer {
+  margin-bottom: 1rem;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.checkboxContainer input {
+  margin-right: 0.5rem;
+}
+
+.termsLink {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.logoContainer {
+  /* margin-bottom: 1rem; */
+  text-align: center;
+  padding: 0;
+}
+.signUpButton {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.loginText {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.loginLink {
+  color: var(--primary-color);
+  text-decoration: none;
+}

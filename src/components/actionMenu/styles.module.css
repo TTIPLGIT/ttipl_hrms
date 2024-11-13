@@ -1,0 +1,14 @@
+.actionMenu {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: 2px solid var(--border-color);
+  box-shadow: 0px 0px 3px var(--shadow-color);
+}
+.actionMenu ul li div a:hover {
+  color: var(--text-hover);
+  background-color: var(--background-hover);
+}
+.actionMenu ul li div a:hover span {
+  color: var(--text-hover);
+  background-color: var(--background-hover);
+}

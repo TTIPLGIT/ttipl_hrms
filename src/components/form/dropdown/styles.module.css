@@ -1,0 +1,14 @@
+.select {
+  font-family: var(--font-family);
+  font-feature-settings: var(--font-feature-settings, normal);
+  font-size: 1rem;
+  color: var(--text-color);
+  background: var(--background-color);
+  padding: 0.75rem 0.75rem;
+  border: 2px solid #cacbd0;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+  border-radius: 6px;
+  outline-color: transparent;
+  width: 100% !important;
+}
