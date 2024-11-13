@@ -7,7 +7,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build:testing": "env-cmd -f .env.testing vite build",
     "build:staging": "env-cmd -f .env.staging vite build",
     "build:production": "env-cmd -f .env.production vite build",
