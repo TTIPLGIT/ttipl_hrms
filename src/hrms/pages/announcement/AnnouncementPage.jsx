@@ -1,5 +1,5 @@
 const AnnouncementPage = () => {
-  return <div>Announcement Page</div>;
+  return <div>Announcement Page - coming soon</div>;
 };
 
 export default AnnouncementPage;
