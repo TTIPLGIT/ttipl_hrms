@@ -9,11 +9,9 @@ import { useForm } from "react-hook-form";
 export default function OrganizationEdit() {
   const toast = useRef(null);
   const methods = useForm();
-  const [imgView, setImgView] = useState(false);
   const navigate = useNavigate();
   const { state } = useLocation();
   const [newFormData, setFormData] = useState();
-  const [logoView, setLogoView] = useState("");
 
   const formDT = [
     {
@@ -114,20 +112,8 @@ export default function OrganizationEdit() {
       defaultValue: "",
       disabled: "",
       required: "Enter Logo",
-      tagNeeded: (
-        <p>
-          <p>
-            <i
-              onClick={() => setImgView(!imgView)}
-              className="fa fa-eye cursor-pointer"
-            ></i>
-          </p>
-        </p>
-      ),
     },
   ];
-
-  console.log("imgView", imgView);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -159,21 +145,6 @@ export default function OrganizationEdit() {
     <>
       {" "}
       <Toast ref={toast} />
-      {imgView && (
-        <div className="fullscreen-overlay">
-          <div
-            className="close-icon cursor-pointer"
-            onClick={() => setImgView(false)}
-          >
-            &times;
-          </div>
-          <img
-            src={logoView}
-            className="fullscreen-image w-1"
-            alt="Full Screen View"
-          />
-        </div>
-      )}
       <CustomFormWrapper
         formName="Edit Organization"
         formDT={newFormData}
